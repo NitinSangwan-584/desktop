@@ -9,8 +9,11 @@
     list-style: none;
 }
 
-.container {
+.max-w-1140 {
     max-width: 1140px;
+}
+
+.px-12 {
     padding-left: 12px;
     padding-right: 12px;
 }
