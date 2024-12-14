@@ -68,7 +68,6 @@
 
 @media (max-width:768px) {
     :root {
-        --text-md: 22px;
         --text-xl: 48px;
         --lh-83px: 58px;
     }
@@ -76,9 +75,16 @@
 
 @media (max-width:576px) {
     :root {
-        --text-md: 20px;
-        --text-xl: 36px;
+        --text-xl: 32px;
         --fw-bold: 600;
-        --lh-83px: 46px;
+        --lh-83px: 42px;
+    }
+
+    @media (max-width:425px) {
+        :root {
+            --text-md: 16px;
+            --text-xl: 25px;
+            --lh-83px: 35px;
+        }
     }
 }
